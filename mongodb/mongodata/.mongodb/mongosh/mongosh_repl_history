@@ -1,0 +1,12 @@
+show users
+show user
+db.MyCollection.find()
+db.myCollection.find()
+db.MyCollection.insertOne({name:"toon",hp:0})
+db.MyCollection.insertOne({name:"jay",hp:99})
+db.createCollection("MyCollection")
+use myNewDatabase
+db.getCollection("system.sessions").find().pretty()
+show collections
+use config
+show dbs
